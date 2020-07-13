@@ -17,102 +17,118 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %----------------------------------------------------------------------------------------
-%PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
 \documentclass{resume} % Use the custom resume.cls style
 
-\usepackage[left=0.45in,top=0.45in,right=0.45in,bottom=0.6in]{geometry} % Document margins
-\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
-\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
-\name{Liam Bardong} % Your name
-\address{134 Woodhill Lane, Manhasset NY, 11030} % Your address
-%\address{123 Pleasant Lane \\ City, State 12345} % Your secondary addess (optional)
-\address{(+1)~516~647~9218 \\ lbardong5@gmail.com} % Your phone number and email
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
 
+\name{Liam Bardong} % Your name
+\address{+1 (516) 458 6067 \\ lbardong5@gmail.com \\ 134 Woodhill Lane, Manhasset NY 11030} % Your phone number and email
 \begin{document}
 
 %----------------------------------------------------------------------------------------
-%EDUCATION SECTION
+%	EDUCATION SECTION
 %----------------------------------------------------------------------------------------
 
 \begin{rSection}{Education}
 
-{\bf Williams College} \hfill { September 2016 - Present} 
-\\ Undergraduate
-\\ \textit{Bachelor Arts:} Computer Science Major, Environmental Studies Concentration
-\\ Activities: Varsity Soccer Player, Member of Student Athletic Advisory Committee (SAAC)
-%Minor in Linguistics \smallskip \\
-%Member of Eta Kappa Nu \\
-%Member of Upsilon Pi Epsilon \\
+{\bf Williams College}  {\textit{ 2016-2020}} \hfill Williamstown, MA \\ 
+\textit{ Bachelor of Arts, major: Computer Science }\\
+\textit{Relevant Coursework:} Algorithm Design and Analysis, Theory of Computation, Programming Languages, Advanced Data Structures, Intro. to Computer Security, Computer Organization, Linear Algebra, Intro. to Operations Research 
 
-{\bf Friends Academy} \hfill { September 2012 - June 2016} 
-\\ High School 
+$\cdot$ Member of Williams College Men’s Varsity Soccer team (2016-2019) \\
+$\cdot$ All-NESCAC Team (2018, 2019), All-Region Team (2019) \\
+$\cdot$  Member of Student Athletic Advisory Committee (SAAC) (2016-2018)
+
+\vspace{0.2mm}
+{\bf Friends Academy} {\textit{ 2012-2016}}  \hfill Locust Valley, NY\\ 
+{\em High School Diploma } 
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Experience}
+
+\begin{rSubsection}{Whooo’s Reading}{Summer 2019}{Software Development Intern}{New York City, NY}
+\item Developed NLP models that predict the accuracy of students’ answers to questions using a pre-trained BERT model
+\item Trained models on TPUs and GPUs from Google Cloud Console
+\item Worked remotely, communicating daily with colleagues in other locations via Slack messaging and chats. Met with the CTO every
+couple of weeks for face to face meetings to provide more details updates on my projects and discuss new methods to improve model
+result.
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{Williams College}{Spring 2019}{CS136 Teacher's Assistant}{Williamstown, MA}
+\item Assisted professor with the grading of labs every week
+\item Ran lab TA hours 8 hours a week to help students on weekly labs
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{Clever Devices}{Summer 2017, 2018}{Product Management Intern}{Woodbury, NY}
+\item Worked on a Python Script to create a CSV file of bus and server logs in chronological order
+\item Assembled a computer used to show software products to potential buyers
+\item Organized the Intern Cookout and doubled the proceeds from the 2016 cookout at half the cost
+\end{rSubsection}
 
 
 \end{rSection}
+
 %----------------------------------------------------------------------------------------
-%TECHNICAL STRENGTHS SECTION
+%	LEAADERSHIP SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Leadership}
+\begin{rSubsection}{Williams College Varsity Men's Soccer Captain}{2018 - 2019}{}{Williamstown, MA}
+\item Voted by fellow teammates for position
+\item Responsible for running the off season during the winter and spring before the season
+\item Responsible for regularly meeting with coaching staff to discuss decisions of practices and personal changes in season
+\item Was provided training by Williams College on being an effective leader
+\end{rSubsection}
+
+%------------------------------------------------ 
+
+\begin{rSubsection}{Clever Devices Intern Team Leader}{Summer 2017, 2018}{}{Woodbury, NY}
+\item Was voted into position by fellow interns to lead the intern project for the summer
+\item Tasked with developing a proposal to enhance the on-boarding process at Headquarters in 2018
+\item Tasked with researching possible ventures and developed a business plan inclusive of market strategy in 2017
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{Williams College Varsity Men's Soccer Captain}{2018-2019}{}{Locust Valley, NY}
+\item Selected by peers anonymously to be a part of the Natural Helper Program, part of a national program dedicated to ensure a safe
+environment through a “helping network” within schools for students who need a person they trust and can turn to
+\item Was given training to effectively communicate, listen, and help people find appropriate resources
+\end{rSubsection}
+\end{rSection}
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
 %----------------------------------------------------------------------------------------
 
 \begin{rSection}{Technical Strengths}
 
 \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-Computer Languages &  Java, Python, R, C, Java Script, Scala  \\
-Software \& Tools & HTML, LaTeX, Excel, Word, PowerPoint  \\
-\textbf{Language Skills} & Proficient in Spoken Japanese
+Computer Languages &  C, C++, Java, Java Script, Python, R, Scala, Swift \\
+Software & AWS, Google Cloud Console, Github, Linux Terminal, Xcode\\
+Language Skills & Proficient in spoken Japanese
+
 \end{tabular}
 
 \end{rSection}
 
+
+%\begin{rSection}{Section Name}
+
+%Section content\ldots
+
+%\end{rSection}
+
 %----------------------------------------------------------------------------------------
-%WORK EXPERIENCE SECTION
-%----------------------------------------------------------------------------------------
-
-\begin{rSection}{Experience}
-
-\begin{rSubsection}{Clever Devices}{June 2018 - August 2018}{Product Management Intern}{}
-% EDIT THIS SECTION
-\item Currently working on a Python Script to create a CSV file of bus and server logs in chronological order
-\item Elected as Intern Project Team Leader: Team of 12
-\subitem Tasked with developing a proposal to enhance the on-boarding process at Headquarters 
-
-\end{rSubsection}
-
-
-%------------------------------------------------
-
-\begin{rSubsection}{Clever Devices}{June 2017 - August 2017}{Product Management Intern}{}
-% EDIT THIS SECTION
-\item Intern Project Team Leader: Team of 13
-\subitem Tasked with researching possible ventures and developed a business plan inclusive of market strategy
-\item Assembled a computer used to show software products to potential buyers
-\item Organized data from bus stops to provide accurate information to Deployment 
-\item Organized the Intern Cookout, and even the doubles the proceeds from 2016 at half the cost
-\end{rSubsection}
-
-\begin{rSubsection}{Friends Academy Summer Camp}{June 2016 - August 2016}{Life Guard}{}
-% EDIT THIS SECTION
-\item Certification in CPR/Red Cross Life Guard
-\item Ability to act and communicate in situations in an effective order
-\item Gave one on one swim lessons throughout the summer
-\end{rSubsection}
-
-\end{rSection}
-
-
-%EXAMPLE SECTION
-%----------------------------------------------------------------------------------------
-
-\begin{rSection}{Relevant Courses}
-\itab{\textbf{Core Courses}} \tab{}  \tab{\textbf{Other Courses}}
-\\ \itab{CS136 Advanced Data Structures } \tab{}  \tab{Math200 Discrete Mathematics}
-\\ \itab{CS237 Computer Organization} \tab{}  \tab{Stat200 Probability and Statistics} 
-\\ \itab{CS334 Programming Languages} \tab{}  \tab{Math150 Multi-variable Calculus} 
-\\ \itab{CS256 Algorithm Design and Analysis} \tab{} \tab{CS326 Software Methods}
-
-\end{rSection}
-
-
 
 \end{document}
